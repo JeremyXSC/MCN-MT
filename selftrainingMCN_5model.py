@@ -43,7 +43,7 @@ class Logger(object):
         pass
 
 
-sys.stdout = Logger("./LOG/MCN_5/M2D/print.txt") 
+sys.stdout = Logger("./LOG/MCN_5/D2M/print.txt") 
 
 def data_write_csv(file_name, datas):#file_name为写入CSV文件的路径，datas为要写入数据列表
   file_csv = codecs.open(file_name,'w+','utf-8')#追加
