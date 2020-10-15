@@ -45,7 +45,11 @@ If you want to restart the train process using MCN-MT (with meannet) with 3 mode
 CUDA_VISIBLE_DEVICES=0,1,2,3 python selftrainingACT_3model_meannet.py --src_dataset dukemtmc --tgt_dataset market1501 --resume ./MCN_pretrain/Duke/Duke2Market.pth --data_dir ./data --logs_dir ./logs/dukemar_3model_meannet
 ```
 
+### Experiment Results on DukeMTMC-reID and Market-1501 datasets.
+<img src='images/results.png'/>
+
 ### Citation
+If you find this code useful in your research, please consider citing：
 ```
 @article{xiang2020learning,
     title={Learning From Self-Discrepancy via Multiple Co-Teaching for Cross-Domain Person Re-Identification},
