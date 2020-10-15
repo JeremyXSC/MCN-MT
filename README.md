@@ -2,6 +2,8 @@
 
 ## Learning From Self-Discrepancy via Multiple Co-Teaching for Cross-Domain Person Re-Identification (MCN-MT)
 
+<img src='images/11.pdf'/>
+
 The official implementation of MCN-MT in PyTorch, and our paper is submitted to ICASSP 2021, it is available at [http://arxiv.org/abs/2020.00000](http://arxiv.org/abs/2020.00000).
 
 ### News
