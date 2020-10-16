@@ -33,7 +33,7 @@ This repo. supports training on multiple GPUs and the default setting is also mu
 
 1. Download all necessry datasets, e.g. DukeMTMC-reID, Market-1501 and CUHK03 datasets and move them to 'data'.  
 
-2. Before performing training from scratch, please download all models ([Baidu NetDisk](https://pan.baidu.com/s/1WcjIyvoW8RI-FrEdsnLVgg), Password: 102s) pretrained on DukeMTMC-reID and Market-1501, and then move them in the 'MCN-MT'
+2. Before performing training from scratch, please download all models ([Baidu NetDisk](https://pan.baidu.com/s/1WcjIyvoW8RI-FrEdsnLVgg), Password: 102s) pretrained on DukeMTMC-reID and Market-1501, and then move them in the 'MCN_pretrain'
 
 3. If you want to restart the train process using MCN with 3 models when trained on DukeMTMC-reID, while tested on Market-1501, the command you can type as
 ```
