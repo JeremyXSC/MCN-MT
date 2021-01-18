@@ -45,9 +45,30 @@ If you want to restart the train process using MCN-MT (with meannet) with 3 mode
 CUDA_VISIBLE_DEVICES=0,1,2,3 python selftrainingACT_3model_meannet.py --src_dataset dukemtmc --tgt_dataset market1501 --resume ./MCN_pretrain/Duke/Duke2Market.pth --data_dir ./data --logs_dir ./logs/dukemar_3model_meannet
 ```
 
-If you want to train your own's pretrained model, please train source and adapted model by using code in [Adaptive-ReID](https://github.com/LcDog/DomainAdaptiveReID) and follow #2.
+If you want to train your own's pretrained model, please train source and adapted model by using code in [Adaptive-ReID](https://github.com/LcDog/DomainAdaptiveReID) and follow Step#2.
 
 ### Experiment Results on DukeMTMC-reID and Market-1501 datasets.
+<!-- markdownlint-disable MD033 -->
+<table>
+    <tr>
+        <th rowspan="2">SRC --&gt; TGT</th>
+        <th colspan="2">MCN</th>
+        <th colspan="2">MCN-MT</th>
+        <th rowspan="2">Settings</th>
+    </tr>
+    <tr>
+        <td>Rank-1</td>
+        <td>mAP</td>
+        <td>Rank-1</td>
+        <td>mAP</td>
+    </tr>
+    <tr><td>Duke --&gt; Market</td><td>82.6</td><td>63.2</td><td>84.3</td><td>64.9</td><td>4GPUs</td></tr>
+    <tr><td>Market --&gt; Duke</td><td>72.5</td><td>53.5</td><td>74.7</td><td>57.8</td><td>4GPUs</td></tr>
+    <tr><td>CUHK03 --&gt; Market</td><td>82.2</td><td>66.1</td><td>53.3</td><td>32.7</td><td>4GPUs</td></tr>
+    <tr><td>CUHK03 --&gt; Duke</td><td>84.8</td><td>68.7</td><td>56.3</td><td>40.2</td><td>4GPUs</td></tr>
+</table>
+
+### Experiment results on Impact of branch numbers n.
 <img src='images/results.png'/>
 
 ### Acknowledgments
