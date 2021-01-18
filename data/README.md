@@ -1,7 +1,15 @@
-### Put all datasets in this folder 
+# Put all datasets under this folder like this:
 
-- Market-1501 (Market-1501-v15.09.15.zip)
+```
+data
 
-- DukeMTMC-reID (DukeMTMC-reID.zip)
-
-- CUHK03 (cuhk03_release.zip)
+----market1501
+--------raw
+------------Market-1501-v15.09.15.zip
+----dukemtmc
+--------raw
+------------DukeMTMC-reID.zip
+----cuhk03
+--------raw
+------------cuhk03_release.zip
+```
