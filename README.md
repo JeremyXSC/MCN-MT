@@ -4,7 +4,7 @@
 
 <img src='images/MCN-MT.png'/>
 
-The official implementation of MCN-MT in PyTorch, and our paper is submitted to ICASSP 2021, and it is still under view. 
+This is the official implementation of MCN-MT in PyTorch framework, and our paper is submitted to ICASSP 2021, and it is still under view. 
 
 ### News
 - Support Market1501, DukeMTMC-reID and CUHK03 datasets.
@@ -45,9 +45,11 @@ If you want to restart the train process using MCN-MT (with meannet) with 3 mode
 CUDA_VISIBLE_DEVICES=0,1,2,3 python selftrainingACT_3model_meannet.py --src_dataset dukemtmc --tgt_dataset market1501 --resume ./MCN_pretrain/Duke/Duke2Market.pth --data_dir ./data --logs_dir ./logs/dukemar_3model_meannet
 ```
 
+If you want to train your own's pretrained model, please train source and adapted model by using code in [Adaptive-ReID](https://github.com/LcDog/DomainAdaptiveReID) and follow #2.
+
 ### Experiment Results on DukeMTMC-reID and Market-1501 datasets.
 <img src='images/results.png'/>
 
 ### Acknowledgments
 This work was supported by the National Natural Science Foundation of China under Project(Grant No.61977045).
-If you have further questions and suggestions, please feel free to contact [us] (xiangsuncheng17@sjtu.edu.cn).
+If you have further questions and suggestions, please feel free to contact us (xiangsuncheng17@sjtu.edu.cn).
