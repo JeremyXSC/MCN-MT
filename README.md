@@ -51,7 +51,7 @@ If you want to train your own's pretrained model, please train source and adapte
 <!-- markdownlint-disable MD033 -->
 <table>
     <tr>
-        <th rowspan="2">SRC --&gt; TGT</th>
+        <th rowspan="2">Source --&gt; Target</th>
         <th colspan="2">MCN</th>
         <th colspan="2">MCN-MT</th>
         <th rowspan="2">Settings</th>
@@ -64,8 +64,8 @@ If you want to train your own's pretrained model, please train source and adapte
     </tr>
     <tr><td>Duke --&gt; Market</td><td>82.6</td><td>63.2</td><td>84.3</td><td>64.9</td><td>4GPUs</td></tr>
     <tr><td>Market --&gt; Duke</td><td>72.5</td><td>53.5</td><td>74.7</td><td>57.8</td><td>4GPUs</td></tr>
-    <tr><td>CUHK03 --&gt; Market</td><td>82.2</td><td>66.1</td><td>53.3</td><td>32.7</td><td>4GPUs</td></tr>
-    <tr><td>CUHK03 --&gt; Duke</td><td>84.8</td><td>68.7</td><td>56.3</td><td>40.2</td><td>4GPUs</td></tr>
+    <tr><td>CUHK03 --&gt; Market</td><td>82.2</td><td>66.1</td><td>84.8</td><td>68.7</td><td>4GPUs</td></tr>
+    <tr><td>CUHK03 --&gt; Duke</td><td>53.3</td><td>37.2</td><td>56.3</td><td>40.2</td><td>4GPUs</td></tr>
 </table>
 
 ### Experiment results on Impact of branch numbers n.
