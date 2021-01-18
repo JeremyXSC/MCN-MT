@@ -1,16 +1,13 @@
-### Put all pretrained model in this folder 
+# Put all pretrained model in this folder 
 
+```
+MCN_pretrain
 
--MCN_pretrain
 ----Market
-
 -------Market2Duke.pth
-
 -------Market2CUHK.pth
 
 ----Duke
-
 -------Duke2Market.pth
-
 -------Duke2CUHK.pth
-
+```
