@@ -4,7 +4,7 @@
 
 <img src='images/MCN-MT.png'/>
 
-This is the official implementation of MCN-MT in PyTorch framework, and our paper is submitted to ICASSP 2021, and it is still under view. 
+This is the official implementation of our paper [Learning from Self-Discrepancy via Multiple Co-teaching for Cross-Domain Person Re-Identification](http://arxiv.org/abs/2104.02265).
 
 ### News
 - Support Market1501, DukeMTMC-reID and CUHK03 datasets.
@@ -74,3 +74,14 @@ If you want to train your own's pretrained model, please train source and adapte
 ### Acknowledgments
 This work was supported by the National Natural Science Foundation of China under Project(Grant No.61977045).
 If you have further questions and suggestions, please feel free to contact us (xiangsuncheng17@sjtu.edu.cn).
+
+If you find this code useful in your research, please consider citing:
+```
+@article{xiang2021learning,
+  title={Learning from Self-Discrepancy via Multiple Co-teaching for 
+  Cross-Domain Person Re-Identification},
+  author={Xiang, Suncheng and Fu, Yuzhuo and Guan, Mengyuan and Liu, Ting},
+  journal={arXiv preprint arXiv:2104.02265},
+  year={2021}
+}
+```
