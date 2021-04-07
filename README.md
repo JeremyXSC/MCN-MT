@@ -4,7 +4,7 @@
 
 <img src='images/MCN-MT.png'/>
 
-This is the official implementation of our paper [Learning from Self-Discrepancy via Multiple Co-teaching for Cross-Domain Person Re-Identification](http://arxiv.org/abs/2104.02265).
+This is the official implementation of our paper [Learning from Self-Discrepancy via Multiple Co-teaching for Cross-Domain Person Re-Identification](http://arxiv.org/abs/2104.02265). This code is based on the [Open-ReID](https://github.com/Cysu/open-reid) library.
 
 ### News
 - Support Market1501, DukeMTMC-reID and CUHK03 datasets.
