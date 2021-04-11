@@ -78,8 +78,7 @@ If you have further questions and suggestions, please feel free to contact us (x
 If you find this code useful in your research, please consider citing:
 ```
 @article{xiang2021learning,
-  title={Learning from Self-Discrepancy via Multiple Co-teaching for 
-  Cross-Domain Person Re-Identification},
+  title={Learning from Self-Discrepancy via Multiple Co-teaching for Cross-Domain Person Re-Identification},
   author={Xiang, Suncheng and Fu, Yuzhuo and Guan, Mengyuan and Liu, Ting},
   journal={arXiv preprint arXiv:2104.02265},
   year={2021}
