@@ -72,7 +72,7 @@ If you want to train your own's pretrained model, please train source and adapte
 <img src='images/results.png'/>
 
 ### Acknowledgments
-This work was supported by the National Natural Science Foundation of China under Project(Grant No.61977045).
+This work was supported by the National Natural Science Foundation of China under Project(Grant No. 61977045).
 If you have further questions and suggestions, please feel free to contact us (xiangsuncheng17@sjtu.edu.cn).
 
 If you find this code useful in your research, please consider citing:
