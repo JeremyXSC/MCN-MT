@@ -1,3 +1,7 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Python](https://img.shields.io/badge/python-green.svg)
+![GitHub stars](https://img.shields.io/github/stars/JeremyXSC/MCN-MT.svg?style=flat&label=Star)
+
 # MCN-MT
 
 ## Learning From Self-Discrepancy via Multiple Co-Teaching for Cross-Domain Person Re-Identification (MCN-MT)
