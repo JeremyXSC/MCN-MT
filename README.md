@@ -81,10 +81,12 @@ If you have further questions and suggestions, please feel free to contact us (x
 
 If you find this code useful in your research, please consider citing:
 ```
-@article{xiang2021learning,
-  title={Learning from Self-Discrepancy via Multiple Co-teaching for Cross-Domain Person Re-Identification},
+@article{xiang2022learning,
+  title={Learning from self-discrepancy via multiple co-teaching for cross-domain person re-identification},
   author={Xiang, Suncheng and Fu, Yuzhuo and Guan, Mengyuan and Liu, Ting},
-  journal={arXiv preprint arXiv:2104.02265},
-  year={2021}
+  journal={Machine Learning},
+  pages={1--18},
+  year={2022},
+  publisher={Springer}
 }
 ```
