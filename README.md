@@ -72,7 +72,7 @@ If you want to train your own's pretrained model, please train source and adapte
     <tr><td>CUHK03 --&gt; Duke</td><td>53.3</td><td>37.2</td><td>56.3</td><td>40.2</td><td>4GPUs</td></tr>
 </table>
 
-### Experiment results on impact of branch numbers n.
+### Experiment results on impact of discrepancy granularity n.
 <img src='images/results.png'/>
 
 ### Acknowledgments
